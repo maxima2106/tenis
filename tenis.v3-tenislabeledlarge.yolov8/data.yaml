@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cancha_tenis', 'point_f1', 'point_f2', 'point_fc1', 'point_i1', 'point_i2', 'point_ic1']
+
+roboflow:
+  workspace: new-workspace-hipyx
+  project: tenis
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-hipyx/tenis/dataset/3
